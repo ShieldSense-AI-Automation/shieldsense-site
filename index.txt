@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShieldSense | Sovereign AI-Defense</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root { --brand-green: #22c55e; --bg-dark: #080a0c; }
+        body { font-family: 'Space Grotesk', sans-serif; background-color: var(--bg-dark); color: #e2e8f0; overflow-x: hidden; }
+        .mono { font-family: 'JetBrains Mono', monospace; }
+        .glass-panel { background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .gradient-text { background: linear-gradient(135deg, #fff 0%, #4ade80 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero-glow { position: absolute; top: -10%; left: 50%; transform: translateX(-50%); width: 80vw; height: 60vh; background: radial-gradient(circle, rgba(34, 197, 94, 0.08) 0%, transparent 70%); z-index: -1; }
+        .scanline { width: 100%; height: 100px; background: linear-gradient(to bottom, transparent, rgba(34, 197, 94, 0.05), transparent); position: absolute; animation: scan 4s linear infinite; }
+        @keyframes scan { from { top: -100px; } to { top: 100%; } }
+    </style>
+</head>
+<body>
+    <div class="hero-glow"></div>
+    <div class="scanline"></div>
+
+    <nav class="max-w-7xl mx-auto px-6 py-8 flex justify-between items-center">
+        <div class="flex flex-col">
+            <span class="text-2xl font-bold tracking-[0.2em] text-white">SHIELDSENSE</span>
+            <span class="text-[10px] tracking-[0.5em] text-green-500 uppercase font-bold">AI Automation</span>
+        </div>
+        <div class="hidden md:flex gap-10 text-xs tracking-widest uppercase font-semibold text-gray-400">
+            <a href="#architecture" class="hover:text-green-400 transition">Architecture</a>
+            <a href="#sovereignty" class="hover:text-green-400 transition">Sovereignty</a>
+            <a href="#deployment" class="hover:text-green-400 transition">Deployment</a>
+        </div>
+        <div class="mono text-[10px] text-green-500/70 border border-green-500/30 px-3 py-1 rounded">
+            SYS_STATUS: ACTIVE
+        </div>
+    </nav>
+
+    <header class="max-w-7xl mx-auto px-6 pt-24 pb-32">
+        <div class="max-w-3xl">
+            <h1 class="text-6xl md:text-8xl font-bold leading-none mb-6">
+                Trust. <br>
+                Authority. <br>
+                <span class="gradient-text italic">Speed.</span>
+            </h1>
+            <p class="text-xl text-gray-400 mb-10 leading-relaxed border-l-2 border-green-500 pl-6">
+                Next-generation Unified Security Operations. We bridge the gap between Nigerian enterprise data and autonomous interdiction using Sovereign AI Defense.
+            </p>
+            <div class="flex gap-4">
+                <a href="mailto:info@shieldsense.com.ng" class="bg-green-600 hover:bg-green-500 text-black font-bold py-4 px-8 rounded-sm transition uppercase text-sm tracking-tighter">
+                    Request Integration
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="architecture" class="max-w-7xl mx-auto px-6 py-24">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass-panel p-10 rounded-xl">
+                <h3 class="mono text-green-500 text-xs mb-4 uppercase tracking-widest">// Intelligent SIEM</h3>
+                <h4 class="text-2xl font-bold mb-4 text-white">Wazuh Core</h4>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    Industrial-grade threat hunting, integrity monitoring, and regulatory compliance (NDPA/ISO) automated at the edge.
+                </p>
+            </div>
+            <div class="glass-panel p-10 rounded-xl border-green-500/20">
+                <h3 class="mono text-green-500 text-xs mb-4 uppercase tracking-widest">// Neural Orchestration</h3>
+                <h4 class="text-2xl font-bold mb-4 text-white">n8n Logic-Engine</h4>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    Custom AI-Agents orchestrating real-time responses across your infrastructure with zero USD-denominated licensing costs.
+                </p>
+            </div>
+            <div class="glass-panel p-10 rounded-xl">
+                <h3 class="mono text-green-500 text-xs mb-4 uppercase tracking-widest">// Data Sovereignty</h3>
+                <h4 class="text-2xl font-bold mb-4 text-white">Cloudflare Edge</h4>
+                <p class="text-gray-400 text-sm leading-relaxed">
+                    Local hosting with global acceleration. Your security intelligence stays within your control, protected by Frankfurt-grade standards.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white/5 py-24 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+            <div>
+                <h2 class="text-4xl font-bold mb-8">The Sovereign <br>AI Blueprint</h2>
+                <div class="space-y-8">
+                    <div class="flex gap-6">
+                        <div class="text-green-500 font-bold text-xl">01</div>
+                        <div>
+                            <h5 class="font-bold text-white uppercase tracking-wider mb-2">Eliminate USD Dependency</h5>
+                            <p class="text-gray-400 text-sm">We replace expensive foreign licenses with optimized open-source ecosystems, priced for the African market.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <div class="text-green-500 font-bold text-xl">02</div>
+                        <div>
+                            <h5 class="font-bold text-white uppercase tracking-wider mb-2">Autonomous Interdiction</h5>
+                            <p class="text-gray-400 text-sm">ShieldSense doesn't just watch; it acts. AI Agents detect and neutralize threats in milliseconds.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="glass-panel p-8 rounded-2xl mono text-[11px] leading-relaxed text-green-400/80 overflow-hidden">
+                <div class="flex gap-2 mb-4 border-b border-white/10 pb-2">
+                    <div class="h-2 w-2 rounded-full bg-red-500"></div>
+                    <div class="h-2 w-2 rounded-full bg-yellow-500"></div>
+                    <div class="h-2 w-2 rounded-full bg-green-500"></div>
+                </div>
+                <p>> Initializing ShieldSense_Core...</p>
+                <p>> Loading Wazuh_Manager... [OK]</p>
+                <p>> Connecting Neural_Flow... [OK]</p>
+                <p>> Status: Sovereign Intelligence Active.</p>
+                <p class="mt-4 text-white">> _ Waiting for deployment command...</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row justify-between items-center gap-10">
+        <div class="text-xs tracking-widest text-gray-500 uppercase">
+            &copy; 2026 ShieldSense AI Automation | Lagos | Frankfurt
+        </div>
+        <div class="flex gap-8 text-[10px] tracking-[0.3em] uppercase text-gray-400 font-bold">
+            <a href="https://github.com/ShieldSense-AI-Automation" class="hover:text-green-500 transition">GitHub</a>
+            <span>info@shieldsense.com.ng</span>
+        </div>
+    </footer>
+</body>
+</html>
